@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%; height: 100%; margin: 0; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+
+<head>
+    <meta charset="utf-8">
+    <title>Moody Baby</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            /*justify-content: center;*/
+            align-items: center;
+            height: 100vh; /*讓內容在整個視窗高度置中 */
+            background-color: white; /* 背景色 */
+            flex-direction: column; /* 元素從上到下排列 */
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 50%;
+            border: 5px solid #B699CF;
+            width: 200px;
+            height: 200px; /* 圖片的容器為圓形 */
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .logo img {
+            border-radius: 50%;
+            max-width: 100%; /* 讓圖片自適應容器 */
+            height: auto;
+        }
+
+        .logo-content {
+            width: 100%;
+            max-width: 402px;
+            height: 58px;
+            background-color: #B699CF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .logo-content h2 {
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        .article {
+            display: flex;
+            flex-direction: column; /* 垂直排列內容 */
+            align-items: center; /* 水平置中 */
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .article-content1 {
+            color: #B699CF;
+            font-size: 24px;
+            margin: 0 0 20px;
+        }
+
+        .article-content2 {
+            color: #738973;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .article-content3{
+            color: #B699CF;
+            font-size: 24px;
+            margin: 10px 0px;
+            margin-bottom: 60px;
+        }
+
+        .article img {
+            margin-top: 20px;
+        }
+
+        .img-downArrow{
+            margin-bottom: 60px;
+        }
+
+        .footer{
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="img/頭貼.png" alt="Happy">
+    </div>
+    <div class="logo-content">
+        <h2 class="title1">Moody Baby 你的情緒紀錄</h2>
+    </div>
+    <div class="article">
+        <h2 class="article-content1">這個月，你過得很快樂！</h2>
+        <h3 class="article-content2">下滑看更多</h3>
+        <img src="img/downArrow.png" alt="downArrow" width="33">
+        <img src="img/January (2).png" alt="Monthly" width="403">
+        <h2 class="article-content1">你的情緒百分比👇</h2>
+        <img src="img/January (3).png" alt="Monthly" width="403">
+        <img class="img-downArrow" src="img/downArrow.png" alt="downArrow" width="33">
+        <h2 class="article-content3">給情緒一點空間 讓自己更有力量</h2>
+        <div class="logo-content">
+            <h2 class="footer">Design by Moody Baby</h2>
+        </div>        
+        
+    </div>
+</body>
+
+</html>
